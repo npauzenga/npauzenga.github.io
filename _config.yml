@@ -10,8 +10,8 @@ theme:
 
   # Header and footer text
   header_text: >
-     <h1>Software Engineer & Cat Enthusiast</h1>
-     <p>I'm a developer specializing in Ruby, JavaScript, JQuery, and Numerous Frameworks.</p>
+     <h1>Software Engineer</h1>
+     <p>I'm a full stack developer specializing in Ruby and JavaScript</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> and willpower.

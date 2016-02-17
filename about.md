@@ -7,6 +7,4 @@ feature-img: "img/color.png"
 
 <p>I'm a web developer, board game aficionado (graceful loser, insufferable winner), animal lover, and music nerd. I've worked in the video game, music, and television industries, I have a closet full of electronics projects that I was pretty sure I'd need later, and I want to build your website*!</p>
 
-<p>This blog will document my progress learning the ins and outs of software development and hopefully serve as nice set of resources for those just getting started.</p>
-
 <sub>*...or app/software service/<a href="http://www.radiolab.org/story/darkode/" target="_blank">Russian malware</a>.</sub>
