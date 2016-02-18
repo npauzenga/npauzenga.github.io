@@ -10,15 +10,13 @@ The Faker gem is a Ruby library that allows the user to generate placeholder tex
 
 My takeaways --
 
-<ol>
-  <li>Instead of searching for open source projects, keep an eye on the tools you actually use and take note of anything that bugs you.</li>
+1. Instead of searching for open source projects, keep an eye on the tools you actually use and take note of anything that bugs you.
 
-  <li>Contributions don't have to be super significant. Keep the scope of work small. Any minor improvement or additional feature will likely be appreciated.</li>
-</ol>
+2. Contributions don't have to be super significant. Keep the scope of work small. Any minor improvement or additional feature will likely be appreciated.
 
 Other ideas for getting started --
 
-<ol>
-  <li>Updating a project's documentation. It may not be the most exciting contribution but it'll get you familiar with the codebase and serve as a handy introduction to the team.</li>
-  <li>Updating a project's dependencies. Open source projects will rely on gems, APIs, or frameworks that might be out-of-date. Updating these and fixing any bugs that come up would likely be a great help to just about any team. <a href="https://gemnasium.com/?utm_source=Tumblr&utm_medium=integrated-link&utm_campaign=GemnasiumBlog" target="_blank">There are even tools that will automate some of the process.</a> </li>
-</ol>
+1. Updating a project's documentation. It may not be the most exciting contribution but it'll get you familiar with the codebase and serve as a handy introduction to the team.
+
+
+2. Updating a project's dependencies. Open source projects will rely on gems, APIs, or frameworks that might be out-of-date. Updating these and fixing any bugs that come up would likely be a great help to just about any team. <a href="https://gemnasium.com/?utm_source=Tumblr&utm_medium=integrated-link&utm_campaign=GemnasiumBlog" target="_blank">There are even tools that will automate some of the process.</a>

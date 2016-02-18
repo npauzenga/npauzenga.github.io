@@ -15,15 +15,16 @@ And here's one of the interactors being called. Each is located in a directory I
 <script src="https://gist.github.com/npauzenga/1724b0d815ff2fad80ef.js"></script>
 
 The first thing you may notice is that this is a lot more code than you might otherwise write. In this particular case, and any time you have relatively simple methods you're trying to abstract, that's true. So what's the benefit?
-My favorite thing about writing functionality in this way is the organization. If most of your controller logic is moved into interactors you end up with an <code>/app/interactors</code> directory that looks like this:
-<p style="text-align: center;"><code>
+My favorite thing about writing functionality in this way is the organization. If most of your controller logic is moved into interactors you end up with an `/app/interactors` directory that looks like this:
+
+{% highlight bash %}
 /app/interactors/
 create_auth_token.rb
 create_user.rb
 delete_user.rb
 show_user.rb
 update_user.rb
-</code></p>
+{% endhighlight %}
 
 I can now see, at a glance, everything my application does just by looking at this folder.
 

@@ -19,6 +19,8 @@ permalink: /learning/
 ## Current Course(s)
 [Bloc - Front-End Web Development](https://www.bloc.io/frontend-development-bootcamp)
 
+[Upcase - The Art of Vim](https://upcase.com/the-art-of-vim)
+
 
 ## Current Reading Material
 [Practical Object-Oriented Design in Ruby](http://www.poodr.com/) by Sandi Metz
