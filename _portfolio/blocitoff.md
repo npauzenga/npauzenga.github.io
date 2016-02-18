@@ -30,4 +30,4 @@ However, as this app serves as a nice test subject, I have been and will continu
 
 ## Technologies & Techniques Used
 
-Rails, The [Interactor design pattern](http://eng.joingrouper.com/blog/2014/03/03/rails-the-missing-parts-interactors), Continuous Integration with [Travis](https://travis-ci.org/npauzenga/meet_meeples-server), and Test-Driven Development
+Rails, The [Interactor design pattern](http://eng.joingrouper.com/blog/2014/03/03/rails-the-missing-parts-interactors), Continuous Integration with [Travis](https://travis-ci.org/npauzenga/Blocitoff), and Test-Driven Development
