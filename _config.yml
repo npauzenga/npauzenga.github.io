@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://npauzenga.github.io" # the base hostname & protocol for your site
+url: "http://www.natepauzenga.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -34,7 +34,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: https://twitter.com/NPauzenga
+  twitter: NPauzenga
   wordpress:
   youtube:
 
