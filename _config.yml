@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://www.natepauzenga.com" # the base hostname & protocol for your site
+baseurl: "/npauzenga.github.io" # the subpath of your site, e.g. /blog/
+url: "http://npauzenga.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
