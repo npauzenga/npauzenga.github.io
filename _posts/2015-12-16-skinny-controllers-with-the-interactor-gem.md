@@ -17,7 +17,7 @@ And here's one of the interactors being called. Each is located in a directory I
 The first thing you may notice is that this is a lot more code than you might otherwise write. In this particular case, and any time you have relatively simple methods you're trying to abstract, that's true. So what's the benefit?
 My favorite thing about writing functionality in this way is the organization. If most of your controller logic is moved into interactors you end up with an `/app/interactors` directory that looks like this:
 
-![directories](/img/interactors_dir.png)
+![directories](/img/interactors_dir.png){: .center-image }
 
 I can now see, at a glance, everything my application does just by looking at this folder.
 
