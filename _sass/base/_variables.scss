@@ -1,6 +1,7 @@
 // Typography
-$font-family-main: 'Lato', Helvetica, Arial, sans-serif;
-$font-family-headings: 'Abril Fatface', Georgia, serif, cursive;
+$font-family-header: "acumin-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-main: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-headings: 'futura-pt', "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-size: 1.25em;
 
 // Padding
@@ -13,6 +14,7 @@ $matte: #414141;
 $fresh: #CCDFCB;
 $watermelon: #FF6A5C;
 $teal: #056571;
+$beige: #F0EFEC;
 
 // Brand colours
 $brand-color: #fff;
@@ -20,9 +22,9 @@ $background-color: #fff;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #4a4a4a;
-$link-color: $fresh;
-$selection-color: #D4D4D4; // visible when highlighting text
+$text-color: $matte;
+$link-color: $watermelon;
+$selection-color: $fresh; // visible when highlighting text
 
 // Header colours
 $header-link-color: $fresh;

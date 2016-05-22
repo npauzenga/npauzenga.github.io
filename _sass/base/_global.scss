@@ -122,6 +122,9 @@ a {
   margin: 0;
   padding: 0;
 }
+.content {
+  -webkit-font-smoothing: antialiased;
+}
 // Responsive media
 iframe, img, embed, object, video {
   max-width: 100%;

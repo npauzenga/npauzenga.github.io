@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Human Rights & Toxics
+title: Faker Ruby Gem
 thumbnail-path: "img/srtoxics.png"
 short-description: A site for the United Nations Special Rapporteur on Human Rights & Toxics
 
