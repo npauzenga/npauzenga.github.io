@@ -1,4 +1,5 @@
-<header class="site-header">
+<header class="site-header"
+				style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
 	<nav class="site-nav">
 		<ul>
 			{% for page in site.pages %}
@@ -13,19 +14,17 @@
 		</ul>
 	</nav>
 
-	{% if site.theme.header_text %}
-  <div class="call-out" 
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
+	<!-- {% if site.theme.header_text %}
+  <div class="call-out">
   	<h1 class="site-title">
 			<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
 		</h1>
 		<div class="divider"></div>
     {{ site.theme.header_text }}
     <div class="divider"></div>
-    <!-- Social icons from Font Awesome, if enabled -->
 	  <ul>
 	    {% include icons.html %}
 		</ul>
   </div>
-  {% endif %}
+  {% endif %} -->
 </header>

@@ -8,6 +8,12 @@ $padding-large: 20%;
 $padding-small: 5%;
 $padding-x-small: 3%;
 
+// Colors
+$matte: #414141;
+$fresh: #CCDFCB;
+$watermelon: #FF6A5C;
+$teal: #056571;
+
 // Brand colours
 $brand-color: #fff;
 $background-color: #fff;
@@ -15,11 +21,11 @@ $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
 $text-color: #4a4a4a;
-$link-color: #0070BB;
+$link-color: $fresh;
 $selection-color: #D4D4D4; // visible when highlighting text
 
 // Header colours
-$header-link-color: #383838;
+$header-link-color: $fresh;
 
 // Feature image for articles
 $feature-image-text-color: #fff;

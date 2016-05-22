@@ -1,13 +1,12 @@
 // Header text feature
 .call-out {
+  margin-top: 60px;
   padding:5% 0;
   display: inline-block;
   width: 100%;
-  background-size: cover;
-  font-size: 1.2em;
+  // font-size: 1.2em;
   text-align: center;
-  color: $text-color;
-  background-position:center center;
+  color: $fresh;
   .site-title {
     display:block;
     width:100%;
