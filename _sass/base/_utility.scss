@@ -39,3 +39,14 @@ a.button:hover {
 .disabled {
   opacity: 0.7;
 }
+
+// Clearfix
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}

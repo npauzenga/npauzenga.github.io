@@ -34,12 +34,20 @@
     width:80px;
     height:3px;
     background-color:$border-color;
-    display:block;
+    display:block;.
     margin:1.5em auto;
   }
 }
 .call-out p:last-child {
   margin-bottom: 0;
+}
+// Skills
+.skills-container {
+  padding: 20px 0 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 // Post listing
 .posts {
@@ -64,6 +72,9 @@
     p a:hover {
       @extend %link-hover;
     }
+    ul {
+      float: left;
+    }
   }
   .excerpt {
     margin: 1em 0;
@@ -83,9 +94,7 @@
   background-color: #F0EFEC;
   text-align: center;
   display: block;
-  float: left;
   width: 100%;
-  margin-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
   .project {
@@ -133,6 +142,22 @@
     }
   }
 
+}
+.about {
+  padding: 20px;
+  margin: 40px 20px 100px 20px;
+  text-align: center;
+}
+.services {
+  padding: 20px;
+  margin: 40px 0 0 0;
+  color: #F0EFEC;
+  background-color: #056571;
+  text-align: center;
+}
+.contact {
+  clear: both;
+  text-align: center;
 }
 // Pagination
 .pagination .button {

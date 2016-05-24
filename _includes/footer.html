@@ -1,7 +1,22 @@
-<script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
-
 {% if site.theme.footer_text %}
 <footer class="site-footer">
+  <div class="contact">
+    <h2>Reach out</h2>
+    <form action="https://getsimpleform.com/messages?form_api_token=9e7ea6d5db93a276e5316ccb861231f0" method="post">
+      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+      <input type='hidden' name='redirect_to' value='http://www.natepauzenga.com/thank-you/' />
+      <input type='text' name='name' placeholder='Your Full Name' />
+      <input type='email' name='email' placeholder='Your E-mail Address' />
+      <textarea name='message' placeholder='Write your message ...'></textarea>
+      <input type='submit' value='Send Message' />
+    </form>
+  </div>
+  <ul>
+    {% include icons.html %}
+  </ul>
   <p class="text">{{ site.theme.footer_text }}</p>
 </footer>
 {% endif %}
+<script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/Chart.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/skillzChart.js" | prepend: site.baseurl }}"></script>

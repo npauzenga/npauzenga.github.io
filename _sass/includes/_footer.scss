@@ -1,12 +1,14 @@
 .site-footer {
-  @extend %padding-regular;
+  margin-top: 5%;
+  padding: 2% 20%;
+  background-color: #414141;
   display: inline-block;
   text-align: center;
   width: 100%;
   color: lighten($text-color, 30%);
   font-size: 0.9em;
   ul {
-    margin:0 0 1em;
+    margin-top: 2em;
     padding:0;
     list-style-type: none;
     li {
@@ -19,4 +21,15 @@
       }
     }
   }
+}
+
+.contact input {
+  display: block;
+  margin: 30px auto 0 auto;
+  width: 30%;
+}
+.contact textarea {
+  margin: 30px auto 0 auto;
+  width: 60%;
+  height: 150px;
 }
