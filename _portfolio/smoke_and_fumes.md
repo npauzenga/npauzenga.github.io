@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Smoke & Fumes
-thumbnail-path: "img/srtoxics.png"
+thumbnail-path: "img/smoke_mb.png"
 short-description: A site for the United Nations Special Rapporteur on Human Rights & Toxics
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meet Meeples (API)
-thumbnail-path: "img/meet_meeples.png"
+thumbnail-path: "img/meeples_mb.png"
 short-description: A social network for board game geeks.
 
 ---
