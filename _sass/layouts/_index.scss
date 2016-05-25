@@ -142,19 +142,30 @@
 }
 .about {
   padding: 20px;
-  margin: 40px 20px 100px 20px;
+  margin: 40px 160px 100px 160px;
   text-align: center;
 }
 .services {
-  padding: 20px;
-  margin: 40px 0 0 0;
+  padding: 20px 20px 0 20px;
   color: #F0EFEC;
   background-color: #056571;
   text-align: center;
+
+  h4 {
+    font-family: $font-family-main;
+  }
 }
-.contact {
-  clear: both;
-  text-align: center;
+.services canvas {
+  width: 200px !important;
+  height: 100px !important;
+}
+
+.coffee {
+  position: absolute;
+  margin-top: -155px;
+  right: 460px;
+  transform: rotate(10deg);
+  width: 30%;
 }
 // Pagination
 .pagination .button {
@@ -169,4 +180,10 @@
 }
 .center {
   text-align: center;
+}
+
+@media screen and (max-width: 1334px) {
+  .coffee {
+    display: none;
+  }
 }
