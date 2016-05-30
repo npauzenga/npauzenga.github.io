@@ -2,7 +2,7 @@
 layout: post
 title: Faker Ruby Gem
 thumbnail-path: "img/faker_mb.png"
-short-description: A site for the United Nations Special Rapporteur on Human Rights & Toxics
+short-description: An open source contribution for hipsters
 
 ---
 
@@ -11,12 +11,17 @@ short-description: A site for the United Nations Special Rapporteur on Human Rig
 
 ## Check it Out
 
-The site is live at [srtoxics.org](https://www.srtoxics.org/)
+The api is live at [api.meetmeeples.com](http://api.meetmeeples.com/docs)
 
-## Explanation
+The source code is hosted on [GitHub](https://github.com/npauzenga/meet_meeples-server)
+
+## Project Description
+
+The goal of the app is to connect users to a focused community of local gamers. Users can create a profile, join and create groups, and schedule Game Nights within their groups.
+
+The back-end Rails API is up and running. The front-end is currently in the planning phase.
+
+## Results
 
 
-
-## Technologies & Techniques Used
-
-WordPress, HTML5, CSS3, PHP, JavaScript, Adobe Photoshop, Adobe Illustrator
+## Process, Technologies & Techniques

@@ -159,13 +159,6 @@
   height: 100px !important;
 }
 
-.coffee {
-  position: absolute;
-  margin-top: -155px;
-  right: 460px;
-  transform: rotate(10deg);
-  width: 30%;
-}
 // Pagination
 .pagination .button {
   margin: 0 1.5em;
@@ -179,10 +172,4 @@
 }
 .center {
   text-align: center;
-}
-
-@media screen and (max-width: 1334px) {
-  .coffee {
-    display: none;
-  }
 }
