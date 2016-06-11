@@ -25,7 +25,7 @@ Array.prototype.forEach.call(elements, function(element) {
  * Nav stuff
  */
 var siteNav = document.getElementsByClassName("site-nav")[0];
-var header = document.getElementsByClassName("site-header")[0];
+var header = document.getElementsByClassName("main-page-header")[0];
 var siteTitle = document.getElementsByClassName("nav-title")[0];
 
 var headerHeight = header.offsetHeight;

@@ -1,29 +1,8 @@
-.site-header {
+.main-page-header {
   @extend %padding-small;
   background-position:center center;
   background-size: cover;
   display: inline-block;
   width: 100%;
   height: 100vh;
-
-  // a {
-  //   color: $header-link-color;
-  //   font-family: $font-family-header;
-  //   font-weight: 200;
-  // }
-  //
-  // .avatar {
-  //   height: 2em;
-  //   width: 2em;
-  //   float: left;
-  //   margin-top: -3px;
-  //   border-radius: 0.2em;
-  //   margin-right: 1em;
-  // }
-  //
-  // .site-title {
-  //   font-weight: bold;
-  //   font-size: 1em;
-  //   line-height: 1.5;
-  // }
 }
