@@ -8,8 +8,8 @@ var ruby = new Chart(rubyCtx, {
  type: 'doughnut',
  data: {
    labels: [
-     "watermelon",
-     "teal"
+     "Confidence",
+     "Growth Opportunity"
    ],
    datasets: [
      {
@@ -26,8 +26,8 @@ var javascript = new Chart(jsCtx, {
  type: 'doughnut',
  data: {
    labels: [
-     "watermelon",
-     "teal"
+     "confidence",
+     "Growth Opportunity"
    ],
    datasets: [
      {
@@ -44,8 +44,8 @@ var angular = new Chart(angularCtx, {
  type: 'doughnut',
  data: {
    labels: [
-     "watermelon",
-     "teal"
+     "confidence",
+     "Growth Opportunity"
    ],
    datasets: [
      {
@@ -62,8 +62,8 @@ var html = new Chart(htmlCtx, {
  type: 'doughnut',
  data: {
    labels: [
-     "watermelon",
-     "teal"
+     "confidence",
+     "Growth Opportunity"
    ],
    datasets: [
      {
@@ -80,8 +80,8 @@ var wordpress = new Chart(wpCtx, {
  type: 'doughnut',
  data: {
    labels: [
-     "watermelon",
-     "teal"
+     "confidence",
+     "Growth Opportunity"
    ],
    datasets: [
      {

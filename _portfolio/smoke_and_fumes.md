@@ -15,28 +15,21 @@ The site is live at [smokeandfumes.org](https://www.smokeandfumes.org/)
 
 ## Project Description
 
-The Center for International Environmental Law is a Washington, DC-based non-profit
+The Center for International Environmental Law (CIEL) is a Washington, DC-based non-profit
 committed to environmental justice and defending human rights.
 
-smokeandfumes.org presents a major trove of newly uncovered documents that pushes
-back the record of oil industry knowledge on climate change by decades.
+smokeandfumes.org transformed a trove of documents on the deep history of the oil industry into an interactive online portal and database that exposes what the oil industry knew about climate change, when they knew it, and what they did with that information.
 
-The focus and challenge of this app was the sheer amount of information they wanted to present.
+CIEL needed a simple, compelling way to organize and display hundreds of documents from a wide array of sources. The content needed to be easily accessible to both lay-people that may not know where to start and industry experts that would use the site for research, reporting, and potentially legal purposes.
 
-CIEL needed a simple, compelling way to organize and display what could eventually become
-hundreds of documents from a huge variety of sources. The content needed to be easily
-accessible to both lay-people that may not know where to start and industry experts
-that would use the site for research and reporting purposes.
+The project required an accelerated timeline and needed to support hundreds of concurrent users without production hiccups or downtime.
 
-The project also needed to be launched on an accelerated timeline and support hundreds of concurrent
-users without production hiccups or downtime.
 
 ## Results
 
-The app has been a huge success. Smoke and Fumes has been featured in dozens of news outlets
-and publications. Notably, on the front page of the Huffington Post and The Guardian, in the New York Times, Grist, Vice, and on MSNBC.
+The initial launch of the app, and subsequent updates, has been a huge success. Smoke and Fumes has been featured in dozens of news outlets, including on the front page of the Huffington Post, in The Guardian, the New York Times, Grist, Vice, and MSNBC.
 
-The analytics show thousands of page views per month and hundreds of concurrent users at peak hours.
+Analytics show thousands of page views per month and hundreds of concurrent users at peak hours.
 
 ## Process, Technologies & Techniques
 

@@ -1,11 +1,19 @@
 .site-nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding: 10px 0;
+  width: 100%;
+  transition: all 1s linear;
   ul {
+    float: right;
+    width: 33%;
+    font-weight: 100;
     margin: 0;
     padding: 0;
+    color: #CCDFCB;
     list-style: none;
     line-height: 1.5;
-    float: right;
-    text-align: right;
   }
   li {
     display: inline;
@@ -21,4 +29,11 @@
       width: 100%;
     }
   }
+}
+.nav-title {
+  display: none;
+  margin-left: 2em;
+}
+.my-name {
+  color: $fresh;
 }

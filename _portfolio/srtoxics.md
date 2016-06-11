@@ -15,27 +15,24 @@ The site is live at [srtoxics.org](https://www.srtoxics.org/)
 
 ## Project Description
 
-Baskut Tuncak, a United Nation Special Rapporteur, needed a refined, sophisticated web presence
-and a place to publish his work on the impacts of hazardous substances on human rights.
+Baskut Tuncak, the United Nation Special Rapporteur on the impacts of hazardous substances on human rights, needed a streamlined, sophisticated web presence specifically dedicated to his work under the UN mandate.
 
-Some of the key requirements (in addition to the overall aesthetic) were:
-
+Work included a custom, responsive WordPress theme featuring:
 1) Robust social media sharing options including email subscriptions, Facebook, Twitter and LinkedIn
 2) Twitter integration in the form of a "Latest Tweets" feed
-3) An editable news feed that intelligently culls the latest headlines for relevant results
+3) A news feed that intelligently culls the latest headlines for relevant results
 4) Clear and concise presentation of numerous reports, press releases, statements, etc.
-5) The ability to publish regular posts under several different categories on different parts of the site.
+5) Posting to different portions of the site based on a robust tagging system
 
 ## Results
 
-It has been a pleasure to watch the outpouring of support Baskut and the site have received
-on social media. The site came together quickly and features beautiful photography (curtsey Ismail Ferdous et al) and a wealth of well-curated content.
-
+The site, as a way of amplifying Baskut’s work, has received an outpouring of support on social media. The site came together quickly and features beautiful photography as well as a wealth of well-curated content.
 
 ## Process
 
-The site was intended to be handed over to the client for regular content updates after development was complete. This is the primary rationalle for choosing WordPress. There are several valid options
+The site was intended to be handed over to the client for regular content updates after development was complete. This is the primary rationale for choosing WordPress. There are several valid options
 for Content Management Systems (all-in-one solutions that typically offer tools to build the site and, more importantly, an easy-to-use backend for updating and adding content) but WordPress is by far the most popular and arguably the best documented.
 
 ## Languages and Technologies
+
 WordPress, HTML5, CSS3, PHP, JavaScript, Adobe Photoshop, Adobe Illustrator
