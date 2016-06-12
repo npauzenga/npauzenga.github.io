@@ -27,11 +27,21 @@
 .nav-title {
   display: none;
   margin-left: 2em;
-
-  @media (max-width: 860px) {
-    display: none !important;
-  }
 }
 .my-name {
   color: $teal;
+}
+.mobile-nav {
+  @media (min-width: 860px) {
+    display: none !important;
+  }
+  .nav-title-mobile {
+    text-align: center;
+    margin: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+  }
+  .my-name-mobile {
+    color: $teal;
+  }
 }
