@@ -7,7 +7,7 @@ short-description: A social network for board game geeks.
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/meet_meeples.png)
+![]({{ site.baseurl }}/img/meeples_mb.png)
 
 ## Check it Out
 

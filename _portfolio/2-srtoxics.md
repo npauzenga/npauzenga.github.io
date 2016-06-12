@@ -7,7 +7,7 @@ short-description: A site for the United Nations Special Rapporteur on Human Rig
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/srtoxics.png)
+![]({{ site.baseurl }}/img/srtoxics_mb.png)
 
 ## Check it Out
 

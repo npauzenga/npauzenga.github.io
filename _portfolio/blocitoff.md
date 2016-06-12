@@ -7,7 +7,7 @@ short-description: A self-destructing to-do list application.
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocitoff.png)
+![]({{ site.baseurl }}/img/blocitoff_mb.png)
 
 ## Check it Out
 
