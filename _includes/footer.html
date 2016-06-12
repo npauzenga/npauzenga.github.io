@@ -17,3 +17,33 @@
   <p class="text">{{ site.theme.footer_text }}</p>
 </footer>
 {% endif %}
+<script src="{{ "/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
+<script>smoothScroll.init()</script>
+<script>
+(function (window, document, undefined) {
+
+  'use strict';
+
+  // Cut the mustard
+  var supports = 'querySelector' in document && 'addEventListener' in window;
+  if ( !supports ) return;
+
+  // Get all anchors
+  var anchors = document.querySelectorAll( '[href*="#"]' );
+
+  // Add smooth scroll to all anchors if on the root
+  if (window.location.pathname === "/") {
+    for ( var i = 0, len = anchors.length; i < len; i++ ) {
+      anchors[i].setAttribute( 'data-scroll', true );
+    }
+  } else {
+    for ( var i = 0, len = anchors.length; i < len; i++ ) {
+      anchors[i].removeAttribute( 'data-scroll' );
+    }
+  }
+
+  // Initial smooth scroll (add your attributes as desired)
+  smoothScroll.init();
+
+})(window, document);
+</script>

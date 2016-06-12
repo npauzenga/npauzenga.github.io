@@ -11,18 +11,19 @@ short-description: A site for the United Nations Special Rapporteur on Human Rig
 
 ## Check it Out
 
-The site is live at [srtoxics.org](https://www.srtoxics.org/)
+The site is live at [srtoxics.org](http://www.srtoxics.org/)
 
 ## Project Description
 
 Baskut Tuncak, the United Nation Special Rapporteur on the impacts of hazardous substances on human rights, needed a streamlined, sophisticated web presence specifically dedicated to his work under the UN mandate.
 
 Work included a custom, responsive WordPress theme featuring:
-1) Robust social media sharing options including email subscriptions, Facebook, Twitter and LinkedIn
-2) Twitter integration in the form of a "Latest Tweets" feed
-3) A news feed that intelligently culls the latest headlines for relevant results
-4) Clear and concise presentation of numerous reports, press releases, statements, etc.
-5) Posting to different portions of the site based on a robust tagging system
+
+1. Robust social media sharing options including email subscriptions, Facebook, Twitter and LinkedIn
+2. Twitter integration in the form of a "Latest Tweets" feed
+3. A news feed that intelligently culls the latest headlines for relevant results
+4. Clear and concise presentation of numerous reports, press releases, statements, etc.
+5. Posting to different portions of the site based on a robust tagging system
 
 ## Results
 
