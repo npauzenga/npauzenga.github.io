@@ -37,12 +37,14 @@ var ticking = false;
 function moveNav() {
   if (sp > headerHeight) {
     siteNav.style.position = "fixed";
-    siteNav.style.backgroundColor = "#414141";
+    siteNav.style.backgroundColor = "white";
     siteTitle.style.display = "inline-block";
+    siteNav.style.boxShadow = "0 8px 10px rgba(0,0,0,0.5)";
   } else {
     siteNav.style.position = "absolute";
     siteNav.style.backgroundColor = "transparent";
     siteTitle.style.display = "none";
+    siteNav.style.boxShadow = "none";
   }
 }
 
