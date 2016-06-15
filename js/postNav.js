@@ -1,9 +1,27 @@
 var siteNav = document.getElementsByClassName("site-nav")[0];
 var siteTitle = document.getElementsByClassName("nav-title")[0];
 var myName = document.getElementsByClassName("my-name")[0];
+var sp = 0;
 
 siteNav.style.position = "fixed";
+siteNav.style.display = "block";
 siteNav.style.backgroundColor = "white";
-siteNav.style.borderBottom = "1px solid rgba(0, 0, 0, 0.1)";
+siteNav.style.borderBottom = "1px solid hsla(0,0%,87%,0)";
+siteNav.style.transition = "all 0.2s linear";
+siteNav.style.height = "100px";
+
 siteTitle.style.display = "inline-block";
+
 myName.style.color = "#056571"
+
+window.addEventListener("scroll", function(e) {
+  sp = window.scrollY;
+
+  if (sp <= 10) {
+    siteNav.style.borderBottom = "1px solid hsla(0,0%,87%,0)";
+    siteNav.style.height = "100px";
+  } else {
+    siteNav.style.borderBottomColor = "#dedede";
+    siteNav.style.height = "50px";
+  }
+});

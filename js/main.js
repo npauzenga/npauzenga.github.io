@@ -36,15 +36,13 @@ var ticking = false;
 // if we're at the top of the page make the nav absolute with no bg color
 function moveNav() {
   if (sp > headerHeight) {
+    siteNav.style.display = "block";
     siteNav.style.position = "fixed";
     siteNav.style.backgroundColor = "white";
     siteTitle.style.display = "inline-block";
     siteNav.style.boxShadow = "0 8px 10px rgba(0,0,0,0.5)";
   } else {
-    siteNav.style.position = "absolute";
-    siteNav.style.backgroundColor = "transparent";
-    siteTitle.style.display = "none";
-    siteNav.style.boxShadow = "none";
+    siteNav.style.display = "none";
   }
 }
 
@@ -59,3 +57,13 @@ function moveNav() {
    }
    ticking = true;
  });
+
+ /*
+  * Down Arrow
+  */
+
+  var arrow = document.getElementsByClassName("down-arrow")[0];
+
+  setTimeout(function() {
+    arrow.style.bottom = "12rem";
+  }, 2000);

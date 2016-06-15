@@ -1,13 +1,39 @@
 .site-nav {
   position: fixed;
+  display: none;
   z-index: 1;
   top: 0;
   padding: 10px 0;
+  height: 50px;
   width: 100%;
   transition: all 1s linear;
+  .nav-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100%;
+  }
+  .nav-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    .nav-menu_wrapper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  }
   ul {
-    float: right;
-    width: 50%;
     font-weight: 100;
     margin: 0;
     padding: 0;
@@ -26,22 +52,10 @@
 }
 .nav-title {
   display: none;
-  margin-left: 2em;
 }
 .my-name {
   color: $teal;
 }
 .mobile-nav {
-  @media (min-width: 860px) {
-    display: none !important;
-  }
-  .nav-title-mobile {
-    text-align: center;
-    margin: 1em;
-    padding-bottom: 1em;
-    border-bottom: 1px solid rgba(0,0,0,0.5);
-  }
-  .my-name-mobile {
-    color: $teal;
-  }
+  display: none;
 }
