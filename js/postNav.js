@@ -1,16 +1,11 @@
 var siteNav = document.getElementsByClassName("site-nav")[0];
-var siteTitle = document.getElementsByClassName("nav-title")[0];
 var myName = document.getElementsByClassName("my-name")[0];
 var sp = 0;
 
-siteNav.style.position = "fixed";
-siteNav.style.display = "block";
-siteNav.style.backgroundColor = "white";
-siteNav.style.borderBottom = "1px solid hsla(0,0%,87%,0)";
+siteNav.style.opacity = "1";
 siteNav.style.transition = "all 0.2s linear";
+siteNav.style.boxShadow = "none";
 siteNav.style.height = "100px";
-
-siteTitle.style.display = "inline-block";
 
 myName.style.color = "#056571"
 

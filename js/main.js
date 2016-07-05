@@ -36,13 +36,9 @@ var ticking = false;
 // if we're at the top of the page make the nav absolute with no bg color
 function moveNav() {
   if (sp > headerHeight) {
-    siteNav.style.display = "block";
-    siteNav.style.position = "fixed";
-    siteNav.style.backgroundColor = "white";
-    siteTitle.style.display = "inline-block";
-    siteNav.style.boxShadow = "0 8px 10px rgba(0,0,0,0.5)";
+    siteNav.style.opacity = "1.0";
   } else {
-    siteNav.style.display = "none";
+    siteNav.style.opacity = "0";
   }
 }
 
