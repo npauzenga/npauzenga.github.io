@@ -57,13 +57,3 @@ function moveNav() {
    }
    ticking = true;
  });
-
- /*
-  * Down Arrow
-  */
-
-  var arrow = document.getElementsByClassName("down-arrow")[0];
-
-  setTimeout(function() {
-    arrow.style.bottom = "12rem";
-  }, 2000);
