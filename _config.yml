@@ -3,7 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.natepauzenga.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_settings:
   # Meta
   title: Nate Pauzenga # Your name will go here
   description: "A personal portfolio and blog website" # used by search engines
@@ -68,7 +68,6 @@ collections:
 # BUILD SETTINGS
 markdown: kramdown
 
-highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed

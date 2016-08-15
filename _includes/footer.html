@@ -1,4 +1,4 @@
-{% if site.theme.footer_text %}
+{% if site.theme_settings.footer_text %}
 <footer id="contact" class="site-footer">
   <div class="contact">
     <h2>Reach out</h2>
@@ -14,7 +14,7 @@
   <ul>
     {% include icons.html %}
   </ul>
-  <p class="text">{{ site.theme.footer_text }}</p>
+  <p class="text">{{ site.theme_settings.footer_text }}</p>
 </footer>
 {% endif %}
 <script src="{{ "/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script>
