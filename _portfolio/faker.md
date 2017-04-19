@@ -20,8 +20,3 @@ The source code is hosted on [GitHub](https://github.com/npauzenga/meet_meeples-
 The goal of the app is to connect users to a focused community of local gamers. Users can create a profile, join and create groups, and schedule Game Nights within their groups.
 
 The back-end Rails API is up and running. The front-end is currently in the planning phase.
-
-## Results
-
-
-## Process, Technologies & Techniques
